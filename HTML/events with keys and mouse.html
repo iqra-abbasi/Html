@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            event with keys and mouse
+        </title>
+        <script>
+
+            function downed()
+
+            {
+                document.body.style.background="yellow";
+
+            }
+
+            
+            function uped()
+
+            {
+                document.body.style.background="green";
+
+            }
+
+            function pressed()
+
+{
+    document.body.style.background="blue";
+
+}
+
+
+function clicked()
+
+{
+    document.body.style.background="red";
+
+}
+function doubled()
+
+{
+    document.body.style.background="gray";
+
+}
+
+function down()
+
+{
+    document.body.style.background="pink";
+
+}
+function overed()
+
+{
+    document.body.style.background="black";
+
+}
+function outed()
+
+{
+    document.body.style.background="orange";
+
+}
+  
+            </script>
+
+    </head>
+
+
+    <body>
+        <h1>
+events with keyboard
+        </h1>
+<label>user name</label>
+       <input type="text" name=""username" onkeydown="downed()">
+       <br>
+       <label>user mail</label>
+       <input type="text" name=""mail" onkeyup="uped()">
+       <br>
+
+       <label>user id</label>
+       <input type="text" name=""mail" onkeypress="pressed()">
+       <br>
+<br>
+<br>
+
+
+       <h1>
+        events with mouse
+                </h1>
+        <label>user name</label>
+               <input type="text" name="username" onclick="clicked()">
+               <br>
+               <label>user mail</label>
+               <input type="text" name="mail" ondblclick="doubled()">
+               <br>
+        
+               <label>user id</label>
+               <input type="text" name="id" onmousedown="down()">
+               <br>
+
+               <label>user password</label>
+               <input type="text" name="password" onmouseover="overed()">
+               <br>
+               <label>user address</label>
+               <input type="text" name="address" onmouseout="outed()">
+               <br>
+    </body>
+</html>

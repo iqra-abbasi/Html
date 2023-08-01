@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<tittle>
+text formating and html phrase tags
+</tittle>
+</head>
+
+<body>
+
+<h1>
+text formatting
+</h1>
+
+
+<p>
+
+<strong>hi</strong> . i am iqra abbasi.<b> thank you</b>
+<br>
+<br>
+
+<i>hi</i> i am iqra abbasi. <em>thank you</em>
+
+hi .<mark> i am iqra abbasi.</mark> thank you
+
+<u>hi</u> i am iqra abbasi. <ins>thank you</ins>
+
+
+<strike>hi </strike>i am iqra abbasi . <del>thank you</del>
+
+hi <tt>i am iqra abbasi </tt>thank you
+
+
+hi<sup> i am iqra abbasi</sup> thank you
+
+
+hi <sub>i am iqra abbasi.</sub>thank you
+
+hi <big>i am iqra abbasi.</big>thank you
+
+hi i am iqra abbasi.<small>thank you</small>
+
+</p>
+</body>
+
+
+</html>

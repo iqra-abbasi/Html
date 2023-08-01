@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        
+    </title>
+    <style>
+       
+
+
+.img
+       
+        {
+           /* background-image: url('baloon3.JPG');*/
+            height:2200px;
+    /*background-image: radial-gradient(closest-corner,lightcoral,crimson,lightseagreen);*/
+    background-image: radial-gradient(farthest-corner at left bottom,rgb(77, 141, 138),rgb(255, 9, 58));
+
+            box-shadow: 10px 10px 10px 10px red;
+            border: 5px solid red;
+           /* background-color:crimson;*/
+            
+            
+        }
+        .bd
+        {
+            background-image: url('baloons.JPG');
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding:60px;
+            border: 10px solid red;
+            box-shadow: 10px 10px 10px 10px red ;
+            box-shadow: 5px 5px 5px green, 5px 5px 5px yellow;
+            -webkit-text-stroke-width:5px;
+            -webkit-text-stroke-color:maroon;
+            -webkit-text-fill-color:tomato;
+        font-size:100px;
+        }
+        .happy
+        {
+            background-color: maroon;
+             text-align:center;
+              padding:150px; 
+              font-size:xx-large;
+     font-family:Lucida Calligraphy;
+      font-weight: 100;
+      border: 10px solid red;
+      box-shadow: 5px 5px 5px 5px red;
+
+        }
+
+        .happy:hover{
+            background-color: crimson;
+        }
+.voice
+{
+
+
+        background-color:darkred;
+}
+        .voiced a:active 
+        {
+            background-color: aquamarine;
+        }
+
+        h1::first-line
+        {
+            text-align: center;
+                font-family:Lucida Calligraphy;
+                font-size: 2cm;
+                color:maroon;
+                text-shadow: 10px 10px 10px aquamarine;
+                
+        }
+        h1
+        {
+            color:darkblue;
+        }
+
+        .scroll
+            {
+                overflow: scroll;
+                
+                background-color:lightcoral;
+                font-family:cursive;
+                font-size: larger;
+                width:300px;
+                height:200px;
+                color:#FFFFFF;
+
+            }
+            .scroll{
+                position: relative;
+                top:100px;
+                left:530px;
+                width:300px ;
+                height:200px;
+
+                cursor: pointer;
+            }
+.iqra
+{
+    text-align: right;
+    position: relative;
+    left:1000px;
+    font-size: xx-large;
+    font-family: cursive;
+    width:270px;
+    height: 120px;
+    background-color: lightcoral;
+    border: 2px solid red;
+    border-radius: 10px;
+    animation:my 5s;
+    animation-iteration-count: infinite;
+    color:white;
+}
+@keyframes my{
+
+    0%{background-color: lightcoral ;border: 2px solid darkslateblue; border-radius: 10px; font-size: xx-large;
+    font-family: cursive;  width:270px;  height: 120px; color:white;}
+
+    40%{background-color: lightseagreen; border: 4px double darkcyan; border-radius: 15px;font-size: xx-large;
+    font-family: cursive;  width:200px;  height: 100px;color:white; transform:rotate(360deg);}
+
+    70%{background-color: lightgreen; border: 5px dashed darkred; border-radius: 20px;font-size: xx-large;
+    font-family: cursive;  width:150px;  height: 80px;color:white; transform: rotate(400deg);}
+
+    100%{background-color:tomato; border: 8px double red; border-radius: 10px;font-size: xx-large;
+    font-family: cursive;  width:270px;  height:120x; color:white; transform: rotate(500deg);}
+}
+
+
+        
+    </style>
+
+
+<marquee>
+    <b>
+    <script>
+        var d=new Date();
+        document.writeln("happy birthday! its"+d);
+    </script>
+    </b>
+</marquee>
+</head>
+
+<body >
+
+   
+
+    
+    
+    
+    <aside style="background-color:firebrick;
+     text-align:center;width:200px; float:left;
+     padding:70px;">
+     
+    <svg height="150" width="400">
+        <defs>
+            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="red"/>
+                <stop offset="100%" stop-color="yellow"/>
+    
+    
+            </linearGradient>
+        </defs>
+        
+       <!-- <ellipse cx="200" cy="70" rx="75" ry="55" stroke-width="4"fill="url(#grad1)"/>-->
+       <circle cx="200" cy="70" r="70"   stroke-width="4"  fill="url(#grad1)"/>
+        <text fill="maroon" font-size="20" x="150" y="85" >
+            HAPPY
+        </text>
+        
+    </svg>
+    </aside>
+
+    
+
+    <aside style="background-color:firebrick; text-align:center;width:200px; float:right;
+    padding:70px;">
+   <svg width="400" height="150">
+       <defs>
+           <radialGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
+               <stop offset="0%" stop-color="red"/>
+               <stop offset="100%" stop-color="yellow"/>
+   
+           </radialGradient>
+       </defs>
+   
+       <!--<ellipse cx="200" cy="70" rx="85" ry="55" fill="url(#grad1)"/>-->
+       <circle cx="200" cy="70" r="70"   stroke-width="4" fill="url(#grad2)"/>
+       <text fill="maroon" font-size="20" x="150" y="85">
+           BIRTHDAY
+       
+       </text>
+   </svg> 
+   </aside>
+
+
+
+
+    <div class="happy">
+    <section style="text-decoration:line-through double black; font-weight:1000;">HAPPY BIRTHDAY </section>
+
+
+
+
+    <b>
+        <script>
+    
+          var d2=new Date();
+          document.writeln("<strike>");
+          document.writeln("its:"+d2.toDateString());
+          document.writeln("</strike>");
+            document.writeln("<br>");
+            document.writeln("<strike>");
+            document.writeln("and:"+d2.getHours()+":"+d2.getMinutes()+":"+d2.getSeconds());
+            document.writeln("</strike>");
+        </script>
+        </b>
+
+
+
+     </div>
+
+     <br>
+     <br>
+
+
+
+     
+     <h1>
+        
+           <div class="bd">
+
+       HAPPY BIRTHDAY 
+    </div>
+
+
+</div>
+    </h1> 
+    <br>
+    <br>
+
+
+
+    <div class="img" >
+
+        <center>
+   <button  class="voice" style="position:relative;top:20px; left:10px;border:5px double red; border-radius: 30px; box-shadow: 10px 10px 
+   10px 10px lightcoral; padding:10px; " >
+     <audio controls >
+    <source src="voicebirthday.ogg" type="audio/mp3">
+</audio>
+</button>
+</center>
+
+
+<div class="scroll">
+    <p > 
+        happy birthday dear .<br>
+         Allah give you a long,
+         <br>
+         healthy,beautiful,successful,peaceful,
+         <br>
+         and a very happy life. Ameen 
+         <br>
+        Many many happy returns of the day.</p>
+    
+   
+        <span>
+        <p>&#128540;
+
+&#128513;
+
+&#128525;
+
+&#128526;
+
+&#128541;
+    &#129488;
+    &#128557;
+    </p>
+
+        </span>
+
+</div>
+
+<video controls width="300px " height="300px"  style="position:relative; top:130px; left:540px; cursor:progress;" >
+
+    <source  src="birthdayvideo.mp4"type="video/mp4" >
+</video>
+
+<br>
+    <br>
+   <br>
+
+    <img src="birthday1.JPEG" width="300px" height="300px" style="position:relative; top:120px; left:60px;
+   border: 5px solid darkred; border-radius: 5px; padding: 2px;border-radius: 50px;" >
+    <br>
+   
+
+    <img src="birthday4.JPEG" width="300px" height="300px" style="position:relative; top:150px; left:500px;
+     border-radius: 50%; border: 5px solid darkred;  opacity: 0.9; filter: drop-shadow(10px 10px 10px darkred);">
+    <br>
+    
+   
+    <img src="birthday3.JPEG" width="300px" height="300px" style="position:relative;top:180px; left:900px;
+     border: 5px solid darkred; border-radius: 5px; padding: 2px; border-radius: 50px;">
+    
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+  
+  <div class="iqra">
+      from iqra abbasi.
+      &#128525;
+  </div>
+
+
+    </div>
+
+</body>
+</html>

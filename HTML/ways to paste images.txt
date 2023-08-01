@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<tittle>
+images
+</tittle>
+</head>
+
+<body>
+
+<h1 abbr title="different ways to paste images">different ways to paste images
+
+<abbr>
+</h1>
+
+
+<img src="girl.JPEG"
+</body>
+
+</html>
